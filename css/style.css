@@ -1,0 +1,143 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #eadac0;
+}
+
+#container {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#titulo {
+    background-color: #c32105;
+    color: #FFFFFF;
+    height: 80px;
+    text-align: center;
+}
+
+#titulo h1 {
+    padding: 16px;
+}
+
+#menu {
+    background-color: #c32105;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: center;
+    
+}
+
+#menu ul li {
+    display: inline;
+    text-transform: uppercase;
+}
+
+#menu ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#menu ul li a:hover {
+    color: #ae7a47;
+}
+
+#capa img {
+    width: 100%;
+    height: 550px;
+}
+
+.imagens {
+    display: inline-block;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.imagens img {
+    width: 400px;
+    height: 400px;
+}
+
+#rodape {
+    background-color: #c32105;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+.endereco, .redes-sociais, .telefones {
+    display: inline-block;
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
+
+.telefones img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 3px -24px;
+}
+
+.desenvolvido {
+    padding-top: 10px;
+}
+
+/*------- Sobre --------*/
+
+#sobre {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.titulo-sobre, .historia-sobre {
+    padding: 20px 0;
+    color: #583d26;
+}
+
+.capa-sobre img {
+    width: 75%;
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.historia-sobre  {
+    text-align: justify;
+}
+
+/*------ Cardápio ---------*/
+
+#cardapio {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    color: #583d26;
+}
+
+.titulo-cardapio {
+    padding: 10px 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.imagem-cardapio {
+    display: inline-block;
+    font-size: 10px;
+    padding: 0 30px 10px 0;
+    margin-bottom: 20px;
+}
