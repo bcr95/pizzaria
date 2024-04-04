@@ -23,25 +23,53 @@
             </ul>
         </nav>
 
-        <section>
-            <h1>Fale Conosco</h1>
+        <section id="contatos">
+            <div class="titulo-form">
+                <h1>Fale Conosco</h1>
+                <p>Dúvidas, sugestões, críticas...</p>
+            </div>
             <div class="formulario">
                 <form method="get" action="">
-
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="nome">
-
-                    <label for="tel">Telefone:</label>
-                    <input type="text" name="tel">
-
-                    <label for="idade">Idade:</label>
-                    <input type="number" name="idade">
-
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email">
-
-                    <input type="submit" value="Enviar">
-
+                    <div>
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" name="nome" class="input">
+                    </div>      
+                    <div>
+                        <label for="tel">Telefone:</label><br>
+                        <input type="text" name="tel" class="input">
+                    </div>
+                    <div>
+                        <label for="idade">Idade:</label><br>
+                        <input type="number" name="idade" class="input">
+                    </div>
+                    <div>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" name="email" class="input">
+                    </div>
+                    <div>
+                    <label>Sexo:</label>
+                        <input type="radio" name="sexo" value="Masculino"><label for="sexo"> Masculino</label>
+                        <input type="radio" name="sexo" value="Feminino"><label for="sexo"> Feminino</label>
+                    </div>
+                    <div>
+                        <label for="Estado">Naturalidade:</label>
+                        <select name="Estado">
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="ES">Espírito Santo</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Quais são seus adicionais preferidos?</label><br>
+                        <input type="checkbox" name="pref1" value="cebola"><label for="pref"> Cebola</label>
+                        <input type="checkbox" name="pref2" value="mussarela"><label for="pref"> Mussarela</label>
+                        <input type="checkbox" name="pref3" value="borda"><label for="pref"> Borda Recheada</label>
+                    </div>
+                    <div>
+                        <label for="mensagem">Deixe aqui suas sugestões:</label><br>
+                        <textarea name="mensagem" cols="40" rows="10"></textarea>
+                    </div>
                 </form>
             </div>
         </section>

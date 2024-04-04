@@ -141,3 +141,40 @@ body {
     padding: 0 30px 10px 0;
     margin-bottom: 20px;
 }
+
+/*--------- Contatos -----------*/
+
+#contatos {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.titulo-form {
+    font-size: 20px;
+    padding: 20px 0;
+    color: #583d26;
+}
+
+
+.formulario {
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
+}
+
+.formulario div {
+    padding: 10px;
+}
+
+.input {
+    width: 360px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+textarea {
+    width: 360px;
+    padding: 10px;
+}
